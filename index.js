@@ -41,5 +41,5 @@ app.get("/", (req, res) => {
   res.send("Portfolio Website server");
 });
 app.listen(port, () => {
-  console.log(`Portfolio website running on ${port}`);
+  console.log(`Portfolio website is running on ${port}`);
 });
