@@ -43,3 +43,5 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Portfolio website is running on ${port}`);
 });
+
+module.exports = app;
